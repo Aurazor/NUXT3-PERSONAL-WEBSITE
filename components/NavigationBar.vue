@@ -15,7 +15,7 @@
     </div>
 
     <div class="nav-items">
-      <div class="nav-items-link rounded-link rounded-link-1"><a href="#">Contact</a></div>
+      <div class="nav-items-link rounded-link rounded-link-1"><a href="#">Let's Connect</a></div>
       <div class="nav-items-link rounded-link rounded-link-2"><a href="#">Download CV</a></div>
     </div>
 
@@ -108,11 +108,11 @@ nav{
      }
 
      .rounded-link-1{
-       background-color: var(--color-primary);
+        background-image: linear-gradient(to right, #B621FE , #1FD1F9);
      }
 
      .rounded-link-2{
-       background-color: var(--color-tertiary);
+       background-image: linear-gradient(to right, orange , gold);
        margin-left: 0;
      }
    }
