@@ -1,0 +1,28 @@
+.flex-center{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.flex-center-vertical{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.highlight-text{
+   background: -webkit-linear-gradient(var(--color-primary), var(--color-secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.highlight-text-timeline-header{
+  background: -webkit-linear-gradient(gold, violet);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gradient-to-right{
+background-image: linear-gradient(to right, var(--color-secondary) , var(--color-primary));
+}
+
