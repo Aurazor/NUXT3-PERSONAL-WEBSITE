@@ -55,13 +55,14 @@
          margin:0 auto;
          padding: 50px 0;
          display: grid;
-         grid-template-columns: 1.5fr 1fr;
-         grid-column-gap: 50px;
+         grid-template-columns: 1fr 1fr;
+         grid-column-gap: 10px;
          height: 100%;
    
          .expertise-img-container{
            img{
              width: 100%;
+             transform: scale(1.5) translateY(23px);
            }
          }
    
@@ -101,9 +102,9 @@
                  font-weight: 600;
                  margin-bottom: 10px;
    
-                 .expertise-header-description{
+                //  .expertise-header-description{
    
-                 }
+                //  }
    
                  .expertise-header-percentage{
                    font-weight: 300;
