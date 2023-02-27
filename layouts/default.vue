@@ -1,6 +1,7 @@
 <template>
     <div id="app">
         <NavigationBar />
+        <slot/>
     </div>
 </template>
 
@@ -28,6 +29,7 @@
     font-family: 'Poppins', sans-serif;
     position: relative;
     overflow-x: hidden;
+    background-image: url("../assets/images/backgrounds/pattern8.svg");
 
     section {
       min-height: 100vh;
