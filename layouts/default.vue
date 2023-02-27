@@ -29,7 +29,7 @@
     font-family: 'Poppins', sans-serif;
     position: relative;
     overflow-x: hidden;
-    background-image: url("../assets/images/backgrounds/pattern11.svg");
+    // background-image: url("../assets/images/backgrounds/pattern11.svg");
 
     section {
       min-height: 100vh;
