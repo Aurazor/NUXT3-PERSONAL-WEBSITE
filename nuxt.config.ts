@@ -4,7 +4,7 @@ export default defineNuxtConfig({
         head:{
             title: 'Nikhil Aukhaj',
             meta: [
-                {name:'description',content:'Nikhil Aukhaj is the best software engineer. Learn more about his skills and experience.' },
+                {name:'description',content:'Nikhil Aukhaj is a software engineer. Learn more about his skills and experience.' },
                 {name:'author', content:'Nikhil Aukhaj'},
                 {name:'robots', content:'index,follow'},
                 {name:'keywords', content:'Nikhil Aukhaj, software engineer, best software engineer'},
