@@ -12,7 +12,6 @@ export default defineNuxtConfig({
                 {property:'og:description', content:'Nikhil Aukhaj is the best software engineer. Learn more about his skills and experience.'},
                 // {property:'og:image', content:''},
                 {property:'og:url', content:'https://nikhilaukhaj.netlify.app'}
-
             ]
             // link:[
             //     {rel: 'stylesheet',href:'https://fonts.googleapis.com/icon?family=Material+Icons'}
