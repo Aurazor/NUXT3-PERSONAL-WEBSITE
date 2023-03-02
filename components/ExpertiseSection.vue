@@ -166,6 +166,12 @@
          .expertise-wrapper{
            grid-template-columns: 1fr;
            padding: 25px;
+
+           .expertise-img-container{
+            img{
+              
+            }
+           }
    
            .expertise-text{
              .expertise-text__title{
