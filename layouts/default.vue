@@ -47,7 +47,7 @@
       max-width: var(--container-width);
       margin: 0 auto;
     }
-    
+
   }
 
 </style>

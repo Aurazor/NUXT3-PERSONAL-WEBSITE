@@ -2,6 +2,7 @@
     <section class="experience">
         <div class="experience-wrapper">
             <h1>My Experience</h1>
+            <div class="experience-content">
             <div class="experience-img">
                 <img src="" alt="University Image">
             </div>
@@ -20,6 +21,7 @@
                 </div>
             </div>
         </div>
+        </div>
        
     </section>
 </template>
@@ -29,5 +31,16 @@
 </script>
 
 <style lang="scss" scoped>
+    .experience{
+        .experience-wrapper{
+            h1{
+                text-align: center;
+            }
 
+            .experience-content{
+                display:grid;
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+    }
 </style>
