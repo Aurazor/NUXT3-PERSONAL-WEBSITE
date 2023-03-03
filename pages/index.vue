@@ -2,6 +2,7 @@
     <div>
         <FrontCover/>
         <ExpertiseSection/>
+        <ExperienceSection/>
     </div>
 </template>
 
