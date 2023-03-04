@@ -77,7 +77,7 @@
            border: 1px solid rgba(255, 255, 255, 0.3);
    
            .expertise-text__title{
-             font-weight: 700;
+             font-weight: 300;
              font-size: 3.2rem;
              line-height: 54.2px;
            }
