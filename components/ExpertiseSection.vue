@@ -169,7 +169,7 @@
 
            .expertise-img-container{
             img{
-              
+              width:100%;
             }
            }
    
