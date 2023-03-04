@@ -4,7 +4,9 @@
             <h1>My Experience</h1>
             <div class="experience-content">
             <div class="experience-img">
-                <img src="" alt="University Image">
+                <div class="experience-img__box">
+                    <img src="../assets/images/diploma3d.png" alt="University Image">
+                </div>
             </div>
             <div class="experience-text">
                 <div class="experience-timeline">
@@ -40,7 +42,24 @@
             .experience-content{
                 display:grid;
                 grid-template-columns: 1fr 1fr;
+
+                .experience-img{
+                    .experience-img__box{
+                        img{
+                            width: 100%;
+                        }
+                    }
+                }
+
+                .experience-text{
+                    .experience-timeline{
+                        .experience-timeline-year{
+
+                        }
+                    }
+                }
             }
+
         }
     }
 </style>
