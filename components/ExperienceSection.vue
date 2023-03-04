@@ -38,7 +38,12 @@
 
 <style lang="scss" scoped>
     .experience{
+        height: calc(100vh - 50px);
+        padding-top: 50px;
         .experience-wrapper{
+           height: 100%;
+           padding: 0 50px;
+           
             h1{
                 font-size: 3.2rem;
                 font-weight: 300;
@@ -48,11 +53,17 @@
             .experience-content{
                 display:grid;
                 grid-template-columns: 1fr 1fr;
+                height: 80vh;
 
                 .experience-img{
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+
                     .experience-img__box{
                         img{
-                            width: 100%;
+                            width: 80%;
                         }
                     }
                 }
@@ -67,21 +78,21 @@
                             position: relative;
 
                             .bullet-point{
-                                height: 21px;
-                                width: 20px;
+                                height: 27px;
+                                width: 22px;
                                 border-radius: 50%;
                                 background: orange;
                                 position: absolute;
                                 top: 50%;
                                 left: -5%;
-                                transform:translate(-50%,-50%);
+                                transform: translate(-50%, -50%);
 
                                 .inner-bullet-point{
                                     width: 10px;
-                                    height: 11px;
+                                    height: 10px;
                                     border-radius: 50%;
                                     background-color: white;
-                                    transform: translate(50%,50%);
+                                    transform: translate(60%, 86%);
                                 }
                             }
                         }
