@@ -5,16 +5,16 @@
             <div class="footer-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Facilis similique maiores, iure saepe velit unde vitae omnis aut fugiat nihil!</div>
             <div class="footer-icons">
                 <div class="footer-icon">
-                    <img src="../assets/images/social_icons/facebook.svg" alt="Facebook Icon by Icons8">
+                    <a href="https://m.facebook.com/nikhil.aukhaj"><img src="../assets/images/social_icons/facebook.svg" alt="Facebook Icon by Icons8"></a>
                 </div>
                 <div class="footer-icon">
-                    <img src="../assets/images/social_icons/twitter.svg" alt="Twitter Icon by Icons8">
+                    <a href="https://twitter.com/Aurazor_8"><img src="../assets/images/social_icons/twitter.svg" alt="Twitter Icon by Icons8"></a>
                 </div>
                 <div class="footer-icon">
-                    <img src="../assets/images/social_icons/linkedin.svg" alt="LinkedIn Icon by Icons8">
+                    <a href="#"><img src="../assets/images/social_icons/linkedin.svg" alt="LinkedIn Icon by Icons8"></a>
                 </div>
                 <div class="footer-icon">
-                    <img src="../assets/images/social_icons/github.svg" alt="Github Icon by Icons8">
+                    <a href="https://github.com/Aurazor"><img src="../assets/images/social_icons/github.svg" alt="Github Icon by Icons8"></a>
                 </div>
             </div>
             <div class="footer-copyright">	&copy; Nikhil Aukhaj 2023</div>
