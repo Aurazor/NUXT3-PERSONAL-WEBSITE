@@ -11,19 +11,19 @@
             <div class="experience-text">
                 <div class="experience-timeline active">
                     <div class="experience-timeline-year"><div class="bullet-point "><div class="inner-bullet-point"></div></div>~2004</div>
-                    <div class="experience-timeline-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, corporis!</div>
+                    <div class="experience-timeline-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate sint culpa repudiandae eaque officia eum possimus odit optio laudantium neque.</div>
                 </div>
                 <div class="experience-timeline">
                     <div class="experience-timeline-year"><div class="bullet-point"><div class="inner-bullet-point"></div></div>2012</div>
-                    <div class="experience-timeline-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, corporis!</div>
+                    <div class="experience-timeline-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ducimus asperiores dolores sapiente optio ipsa accusamus qui magni beatae eius excepturi.</div>
                 </div>
                 <div class="experience-timeline">
                     <div class="experience-timeline-year"><div class="bullet-point"><div class="inner-bullet-point"></div></div>2019</div>
-                    <div class="experience-timeline-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, corporis!</div>
+                    <div class="experience-timeline-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Magnam quod accusamus consequuntur velit facilis omnis ea. Inventore sit est ad accusantium.</div>
                 </div>
                 <div class="experience-timeline">
                     <div class="experience-timeline-year"><div class="bullet-point"><div class="inner-bullet-point"></div></div>2022</div>
-                    <div class="experience-timeline-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, corporis!</div>
+                    <div class="experience-timeline-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Et dolorum recusandae, quam porro sint molestiae rerum vel harum, distinctio atque sequi.</div>
                 </div>
             </div>
         </div>
