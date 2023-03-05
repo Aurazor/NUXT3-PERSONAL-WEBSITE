@@ -9,20 +9,20 @@
                 </div>
             </div>
             <div class="experience-text">
-                <div class="experience-timeline">
-                    <div class="experience-timeline-year"><div class="bullet-point"><div class="inner-bullet-point"></div></div>1000</div>
+                <div class="experience-timeline active">
+                    <div class="experience-timeline-year"><div class="bullet-point "><div class="inner-bullet-point"></div></div>~2004</div>
                     <div class="experience-timeline-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, corporis!</div>
                 </div>
                 <div class="experience-timeline">
-                    <div class="experience-timeline-year"><div class="bullet-point"><div class="inner-bullet-point"></div></div>1000</div>
+                    <div class="experience-timeline-year"><div class="bullet-point"><div class="inner-bullet-point"></div></div>2012</div>
                     <div class="experience-timeline-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, corporis!</div>
                 </div>
                 <div class="experience-timeline">
-                    <div class="experience-timeline-year"><div class="bullet-point"><div class="inner-bullet-point"></div></div>1000</div>
+                    <div class="experience-timeline-year"><div class="bullet-point"><div class="inner-bullet-point"></div></div>2019</div>
                     <div class="experience-timeline-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, corporis!</div>
                 </div>
                 <div class="experience-timeline">
-                    <div class="experience-timeline-year"><div class="bullet-point"><div class="inner-bullet-point"></div></div>1000</div>
+                    <div class="experience-timeline-year"><div class="bullet-point"><div class="inner-bullet-point"></div></div>2022</div>
                     <div class="experience-timeline-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Possimus, corporis!</div>
                 </div>
             </div>
@@ -74,14 +74,15 @@
                     justify-content: space-evenly;
                     align-items: center;
                     .experience-timeline{
+                        color: gray;
                         .experience-timeline-year{
                             position: relative;
 
                             .bullet-point{
                                 height: 27px;
-                                width: 22px;
+                                width: 24px;
                                 border-radius: 50%;
-                                background: orange;
+                                background: white;
                                 position: absolute;
                                 top: 50%;
                                 left: -5%;
@@ -91,15 +92,30 @@
                                     width: 10px;
                                     height: 10px;
                                     border-radius: 50%;
-                                    background-color: white;
-                                    transform: translate(60%, 86%);
+                                    background-color: black;
+                                    transform: translate(72%, 86%);
                                 }
+                            }   
+
+                        }
+                        &.active{
+                            color: black;
+                            .experience-timeline-year{
+                                .bullet-point{
+                                    background-color: orange;
+                                    .inner-bullet-point{
+                                        background-color: white;
+                                    }
+                                }
+                            }
+
+                            .experience-timeline-text{
+                                font-weight: bold;
                             }
                         }
                     }
                 }
             }
-
         }
     }
 </style>
