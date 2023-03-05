@@ -40,6 +40,7 @@
     .experience{
         height: calc(100vh - 50px);
         padding-top: 50px;
+        margin-bottom: 30px;
         .experience-wrapper{
            height: 100%;
            padding: 0 50px;
@@ -54,12 +55,15 @@
                 display:grid;
                 grid-template-columns: 1fr 1fr;
                 height: 80vh;
-
+                /* From https://css.glass */
+                background: rgba(255, 255, 255, 0.2);
+                border-radius: 16px;
+                box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+                backdrop-filter: blur(5px);
+                -webkit-backdrop-filter: blur(5px);
+                border: 1px solid rgba(255, 255, 255, 0.3);
                 .experience-img{
-                    display: flex;
-                    flex-direction: column;
-                    align-items: center;
-                    justify-content: center;
+                    align-self: center;
 
                     .experience-img__box{
                         position: relative;
@@ -67,27 +71,26 @@
                             width: 80%;
                         }
 
-                        &::after{
-                            content: "";
-                            background-color: orange;
-                            position: absolute;
-                            height: 110%;
-                            width: 63%;
-                            top: -4%;
-                            left: 7%;
-                            border-radius: 48%;
-                            z-index: -1;
-                        }
+                        // &::after{
+                        //     content: "";
+                        //     background-color: orange;
+                        //     position: absolute;
+                        //     height: 110%;
+                        //     width: 63%;
+                        //     top: -4%;
+                        //     left: 7%;
+                        //     border-radius: 48%;
+                        //     z-index: -1;
+                        // }
                     }
                 }
 
                 .experience-text{
-                    display: flex;
-                    flex-direction: column;
-                    justify-content: space-evenly;
-                    align-items: center;
+                    align-self: center;
                     .experience-timeline{
                         color: gray;
+                        margin-bottom: 30px;
+
                         .experience-timeline-year{
                             position: relative;
 
