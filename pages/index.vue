@@ -3,6 +3,7 @@
         <FrontCover/>
         <ExpertiseSection/>
         <ExperienceSection/>
+        <Footer/>
     </div>
 </template>
 

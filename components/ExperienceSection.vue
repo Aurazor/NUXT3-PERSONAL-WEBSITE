@@ -55,6 +55,7 @@
                 display:grid;
                 grid-template-columns: 1fr 1fr;
                 height: 80vh;
+                padding-top: 30px;
                 /* From https://css.glass */
                 background: rgba(255, 255, 255, 0.2);
                 border-radius: 16px;
