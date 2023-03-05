@@ -62,8 +62,21 @@
                     justify-content: center;
 
                     .experience-img__box{
+                        position: relative;
                         img{
                             width: 80%;
+                        }
+
+                        &::after{
+                            content: "";
+                            background-color: orange;
+                            position: absolute;
+                            height: 110%;
+                            width: 63%;
+                            top: -4%;
+                            left: 7%;
+                            border-radius: 48%;
+                            z-index: -1;
                         }
                     }
                 }
