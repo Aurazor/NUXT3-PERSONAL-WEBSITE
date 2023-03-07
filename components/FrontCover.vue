@@ -1,5 +1,5 @@
 <template>
-    <section class="front-cover">
+    <section class="front-cover" id="front-cover">
       <div class="front-cover-wrapper">
       <div class="front-cover-text">
         <div class="front-cover-text__title">Hello,</div>
