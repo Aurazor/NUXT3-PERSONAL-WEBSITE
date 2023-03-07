@@ -9,7 +9,7 @@
       </div>
     </div>
     <div class="nav-items">
-      <div class="nav-items-link"><a class="text-animate" href="#second-intro">Intro</a> </div>
+      <div class="nav-items-link"><a class="text-animate" href="#front-cover">Intro</a> </div>
       <div class="nav-items-link"><a class="text-animate" href="#expertise">Skills</a></div>
       <div class="nav-items-link"><a class="text-animate" href="#experience">Experience</a></div>
       <div class="nav-items-link"><a href="#">Let's Connect</a></div>
