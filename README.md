@@ -1,11 +1,11 @@
-# Nuxt 3 Minimal Starter
+# NUXT 3 - Personal Website
 
-Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
+I'm a software engineer with 1 of experience. My expertise spans in fullstack development. I have developed this website in NUXT 3. Learn more about me and my work on this site.
 
-## Setup
+The website url is: https://nikhilaukhaj.netlify.app/
 
+# SETUP
 Make sure to install the dependencies:
-
 ```bash
 # yarn
 yarn install
@@ -24,19 +24,4 @@ Start the development server on http://localhost:3000
 ```bash
 npm run dev
 ```
-
-## Production
-
-Build the application for production:
-
-```bash
-npm run build
-```
-
-Locally preview production build:
-
-```bash
-npm run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+Look at the [Nuxt 3 documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
