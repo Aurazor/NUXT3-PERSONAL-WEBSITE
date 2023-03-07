@@ -12,11 +12,8 @@
       <div class="nav-items-link"><a class="text-animate" href="#second-intro">Intro</a> </div>
       <div class="nav-items-link"><a class="text-animate" href="#expertise">Skills</a></div>
       <div class="nav-items-link"><a class="text-animate" href="#experience">Experience</a></div>
-    </div>
-
-    <div class="nav-items">
-      <div class="nav-items-link rounded-link rounded-link-1"><a href="#">Let's Connect</a></div>
-      <div class="nav-items-link rounded-link rounded-link-2"><a href="#">Download CV</a></div>
+      <div class="nav-items-link"><a href="#">Let's Connect</a></div>
+      <div class="rounded-link rounded-link-2"><a href="#">Download CV</a></div>
     </div>
 
     <div class="nav-hamburger-menu"  >
@@ -83,23 +80,44 @@ nav{
 
      .nav-items-link{
        display:inline-block;
-       margin: 0 10px;
+       margin: 0 7px;
        cursor: pointer;
        color: #3e3e3e;
+       padding: 6px 8px;
+      //  transition: 0.5s ease;
+       border-radius: 20px;
+       border: 1px solid transparent;
+       transition: background-color 0.2s linear;
 
-        a{
-          transition: 0.4s ease;
+        // a{
+        //   transition: 0.4s ease;
 
-          &:hover.text-animate{
-            color: var(--color-primary);
-          }
+        //   &:hover.text-animate{
+        //     color: var(--color-primary);
+        //   }
+        // }
+
+        &:hover{
+          // background: white;
+          background: rgba( 255, 255, 255, 0.25 );
+          box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+          backdrop-filter: blur( 4px );
+          -webkit-backdrop-filter: blur( 4px );
+          border-radius: 20px;
+          border: 1px solid rgba( 255, 255, 255, 0.18 );
+          
         }
+      }
 
      }
 
      .rounded-link{
        padding: 5px 20px;
        border-radius: 20px;
+       display:inline-block;
+       margin: 0 10px;
+       cursor: pointer;
+       color: #3e3e3e;
 
        a{
          color: white;
@@ -119,7 +137,7 @@ nav{
    .nav-hamburger-menu{
      display: none;
    }
- }
+ 
 
  @media only screen and (max-width: 800px) {
    nav {
