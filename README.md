@@ -1,6 +1,6 @@
 # NUXT 3 - Personal Website
 
-I'm a software engineer with 1 of experience. My expertise spans in fullstack development. I have developed this website in NUXT 3. Learn more about me and my work on this site.
+I'm a software engineer with 1 year of experience. My expertise spans in fullstack development. I have developed this website in NUXT 3. Learn more about me and my work on this site.
 
 The website url is: https://nikhilaukhaj.netlify.app/
 
