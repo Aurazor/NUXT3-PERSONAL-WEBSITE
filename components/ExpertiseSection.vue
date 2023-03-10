@@ -49,7 +49,6 @@
    <style lang="scss" scoped>
      .expertise{
        min-height: 100vh;
-   
        .expertise-wrapper{
          max-width: var(--container-width) ;
          margin:0 auto;
@@ -101,11 +100,6 @@
                  text-transform: uppercase;
                  font-weight: 600;
                  margin-bottom: 10px;
-   
-                //  .expertise-header-description{
-   
-                //  }
-   
                  .expertise-header-percentage{
                    font-weight: 300;
                  }
@@ -113,9 +107,7 @@
                  .expertise-text__details-skill-progress{
                    width: 100%;
                    height: 10px;
-   
-   
-   
+
                    .expertise-progress{
                      width: inherit;
                      height: inherit;

@@ -23,11 +23,7 @@
     <style lang="scss" scoped>
     
     .front-cover{
-      //margin-top:var(--nav-height);
-      //height: calc(100vh - var(--nav-height));
       height: 100vh;
-    //   background: url("../assets/images/backgrounds/wall2.png");
-    //   background-image: url("../assets/images/backgrounds/pattern.svg");
       background-size: cover;
       display: grid;
       align-items: center;
