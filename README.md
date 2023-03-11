@@ -2,7 +2,7 @@
 
 I'm a software engineer with 1 year of experience. My expertise spans in fullstack development. I have developed this website in NUXT 3. Learn more about me and my work on this site.
 
-The website url is: https://nikhilaukhaj.netlify.app/
+The website url is: https://nikhilaukhaj.netlify.app
 
 # SETUP
 Make sure to install the dependencies:
