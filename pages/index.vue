@@ -1,6 +1,8 @@
 <template>
     <div>
+        <!-- This is the front page -->
         <FrontCover/>
+        <!-- This is the expertise page -->
         <ExpertiseSection/>
         <ExperienceSection/>
         <Footer/>

@@ -1,5 +1,6 @@
 <template>
     <div id="app">
+      <!--  This is the navbar area-->
         <NavigationBar />
         <slot/>
     </div>
