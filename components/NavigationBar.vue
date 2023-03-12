@@ -13,7 +13,7 @@
       <div class="nav-items-link"><a class="text-animate" href="#expertise">Skills</a></div>
       <div class="nav-items-link"><a class="text-animate" href="#experience">Experience</a></div>
       <div class="nav-items-link"><a href="#">Let's Connect</a></div>
-      <div class="rounded-link rounded-link-2"><a href="#">Download CV</a></div>
+      <div class="nav-items-link rounded-link"><a href="#">Download CV</a></div>
     </div>
 
     <div class="nav-hamburger-menu"  >
@@ -118,20 +118,25 @@ nav{
        margin: 0 10px;
        cursor: pointer;
        color: #3e3e3e;
+       background-image: linear-gradient(to right, orange , gold);
+       margin-left: 0;
 
        a{
          color: white;
        }
+
+       &:hover{
+         background-image: linear-gradient(to right, orange , gold);
+       }
      }
 
-     .rounded-link-1{
-        background-image: linear-gradient(to right, #B621FE , #1FD1F9);
-     }
+    //  .rounded-link-1{
+    //     background-image: linear-gradient(to right, #B621FE , #1FD1F9);
+    //  }
 
-     .rounded-link-2{
-       background-image: linear-gradient(to right, orange , gold);
-       margin-left: 0;
-     }
+    //  .rounded-link-2{
+       
+    //  }
    }
 
    .nav-hamburger-menu{
