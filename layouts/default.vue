@@ -1,6 +1,7 @@
 <template>
     <div id="app">
       <!--  This is the navbar area-->
+      <!-- More changes from remote 2 -->
         <NavigationBar />
         <slot/>
     </div>
