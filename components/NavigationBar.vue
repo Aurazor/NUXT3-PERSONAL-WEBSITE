@@ -1,34 +1,55 @@
 <template>
     <nav>
-    <div class="nav-brand">
-      <div class="nav-brand-logo">
-        <img src="../assets/images/icons/lion_logo_1.png" alt="Lion Logo">
+      <div class="nav-brand">
+        <div class="nav-brand-logo">
+          <img src="../assets/images/icons/lion_logo_1.png" alt="Lion Logo">
+        </div>
+        <div class="nav-brand-text">
+          NIKHIL AUKHAJ
+        </div>
       </div>
-      <div class="nav-brand-text">
-        NIKHIL AUKHAJ
-      </div>
-    </div>
-    <div class="nav-items">
-      <div class="nav-items-link"><a class="text-animate" href="#front-cover">Intro</a> </div>
-      <div class="nav-items-link"><a class="text-animate" href="#expertise">Skills</a></div>
-      <div class="nav-items-link"><a class="text-animate" href="#experience">Experience</a></div>
-      <div class="nav-items-link"><a href="#">Let's Connect</a></div>
-      <div class="nav-items-link rounded-link"><a href="#">Download CV</a></div>
-    </div>
 
-    <div class="nav-hamburger-menu"  >
-      <!-- <template v-if="isHamburgerMenuOpen"> -->
-        <img class="nav-hamburger-menu__img" src="../assets/images/icons/hamburger_close.png" alt="mobile menu icon close">
-      <!-- </template>
-      <template v-else>
-        <img class="nav-hamburger-menu__img" src="../assets/images/icons/hamburger.png" alt="mobile menu icon">
-      </template> -->
-    </div>
+      <div class="nav-items">
+        <div class="nav-items-link"><a class="text-animate" href="#front-cover">Intro</a> </div>
+        <div class="nav-items-link"><a class="text-animate" href="#expertise">Skills</a></div>
+        <div class="nav-items-link"><a class="text-animate" href="#experience">Experience</a></div>
+        <div class="nav-items-link"><a href="#">Let's Connect</a></div>
+        <div class="nav-items-link rounded-link"><a href="#">Download CV</a></div>
+      </div>
+
+      <!-- <div class="nav-hamburger-menu"  >
+        <template v-if="isHamburgerMenuOpen">
+          <img class="nav-hamburger-menu__img" src="../assets/images/icons/hamburger_close.png" alt="mobile menu icon close">
+        </template>
+        <template v-else>
+          <img class="nav-hamburger-menu__img" src="../assets/images/icons/hamburger.png" alt="mobile menu icon">
+        </template>
+      </div> -->
+
+      <div class="nav-hamburger-menu" @click="toggleMenu">
+          <div class="nav-hamburger-menu__open-menu">
+            <img class="nav-hamburger-menu__img" src="../assets/images/icons/hamburger.png" alt="mobile menu icon">
+          </div>
+          <div class="nav-hamburger-menu__close-menu">
+            <img class="nav-hamburger-menu__img" src="../assets/images/icons/hamburger_close.png" alt="mobile menu icon close">
+          </div>
+      </div>
+
   </nav>
 </template>
 
 <script setup>
-
+  function toggleMenu(){
+    // console.log("Toggling menu");
+      let menu = document.querySelector("nav");
+      if(menu.classList.contains("active")){
+        // console.log("removing active from menu");
+        menu.classList.remove("active");
+      }else{
+        // console.log("activating menu from menu");
+        menu.classList.add("active");
+      }
+  }
 </script>
 
 <style lang="scss" scoped>
@@ -84,21 +105,13 @@ nav{
        cursor: pointer;
        color: #3e3e3e;
        padding: 6px 8px;
-      //  transition: 0.5s ease;
        border-radius: 20px;
        border: 1px solid transparent;
        transition: background-color 0.2s linear;
 
-        // a{
-        //   transition: 0.4s ease;
-
-        //   &:hover.text-animate{
-        //     color: var(--color-primary);
-        //   }
-        // }
+     
 
         &:hover{
-          // background: white;
           background: rgba( 255, 255, 255, 0.25 );
           box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
           backdrop-filter: blur( 4px );
@@ -130,13 +143,6 @@ nav{
        }
      }
 
-    //  .rounded-link-1{
-    //     background-image: linear-gradient(to right, #B621FE , #1FD1F9);
-    //  }
-
-    //  .rounded-link-2{
-       
-    //  }
    }
 
    .nav-hamburger-menu{
@@ -157,10 +163,30 @@ nav{
        align-items: center;
        cursor: pointer;
 
+       .nav-hamburger-menu__open-menu{
+        display: block;
+      }
+
+      .nav-hamburger-menu__close-menu{
+        display: none;
+      }
+
        .nav-hamburger-menu__img {
          width: 100%;
        }
      }
+
+     &.active{
+      .nav-hamburger-menu {
+        .nav-hamburger-menu__open-menu{
+          display: none;
+        }
+
+        .nav-hamburger-menu__close-menu{
+          display: block;
+        }
+     }
+    }
    }
  }
 </style>
