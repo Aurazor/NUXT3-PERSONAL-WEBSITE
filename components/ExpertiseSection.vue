@@ -2,7 +2,7 @@
     <section class="expertise" id="expertise">
       <div class="expertise-wrapper">
         <div class="expertise-img-container flex-center-vertical">
-          <img src="../assets/images/VR.png" alt="Expertise Images">
+          <img src="../assets/images/tech.png" alt="Tech People">
         </div>
         <div class="expertise-text flex-center-vertical">
           <div class="expertise-text__title">
@@ -61,7 +61,7 @@
          .expertise-img-container{
            img{
              width: 100%;
-             transform: scale(1.5) translateY(23px);
+            //  transform: scale(1.5) translateY(23px);
            }
          }
    
