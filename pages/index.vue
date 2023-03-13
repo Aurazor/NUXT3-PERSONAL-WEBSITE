@@ -2,9 +2,8 @@
     <div>
         <!-- This is the front page -->
         <FrontCover/>
+        <!-- <SkillSection/> -->
         <!-- This is the expertise page -->
-        <!-- More changes from remote -->
-        <!-- More changes from remote 2 -->
         <ExpertiseSection/>
         <ExperienceSection/>
         <Footer/>
