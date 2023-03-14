@@ -34,7 +34,7 @@
                 justify-content: center;
                 align-items: center;
                 border: 1px solid black;
-
+                aspect-ratio: 1/1;
                 .professional-img{
                     border: 1px solid blue;
                     width: 50%;
